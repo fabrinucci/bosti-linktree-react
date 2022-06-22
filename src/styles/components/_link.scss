@@ -1,0 +1,15 @@
+
+.link {
+  text-decoration: none;
+  color: $white;
+}
+
+.link-block {
+  display: block;
+  text-align: center;
+  transition: color .3s ease-out;
+
+  &:hover {
+    color: darken($white, 10);
+  }
+}
